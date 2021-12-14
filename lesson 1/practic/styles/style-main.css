@@ -1,0 +1,71 @@
+/* RESOLUTION SETTINGS START*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* fix footer to the end of the screen - START*/
+.wrapper__page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.wrapper__content {
+  flex: 1;
+}
+
+.wrapper__footer {
+  flex: 0;
+}
+
+/* fix footer in the end of the screen - END*/
+.header {
+  background-color: #222224;
+  height: 55px;
+}
+
+.header__content {
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.footer {
+  color: #f0f0f0;
+  background-color: #222224;
+}
+
+.content-box {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.goods-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+.goods-list .card {
+  margin: 1rem 0;
+}
+.goods-list .card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.goods-list .card-footer h5 {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=style-main.css.map */
