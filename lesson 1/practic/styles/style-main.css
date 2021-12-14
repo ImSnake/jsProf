@@ -59,6 +59,12 @@ body {
 .goods-list .card {
   margin: 1rem 0;
 }
+.goods-list .card-title {
+  margin-bottom: 1rem;
+}
+.goods-list .card-text {
+  font-size: 0.9rem;
+}
 .goods-list .card-footer {
   display: flex;
   align-items: center;
